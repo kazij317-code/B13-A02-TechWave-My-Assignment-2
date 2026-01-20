@@ -215,7 +215,7 @@ main{
 }
 
 .banner{
-    background: url("./assets/hero-bg.png");
+    background: url("assets/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
@@ -269,9 +269,9 @@ main{
     text-align: center;
 }
 
-.about-text{
+/* .about-text{
     line-spacing: 20px;
-}
+} */
 
 
 
@@ -460,7 +460,7 @@ iframe{
 
 /* ================FOOTER SECTION END=============== */
 
-/* MIXED SHATED STYLE */
+/* MIXED SHARED STYLE */
 .break-line{
     width: 1200px;
     margin: 0 auto;
