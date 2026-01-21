@@ -195,28 +195,26 @@ main{
 }
 
 .hero-circle{    
-    left: -80px; 
+    /* left: 0px;  */
     top: 30px;
     z-index: 1;
 
 }
-.ch-button{
-    top: -285px;
-    left: 345px;
-    z-index:5;
+.ch-button {
+    top: 69px;
+    left: 165px;
+    z-index: 5;
     background-color: #00FF88;
     font-size: 1.13rem;
     font-weight: 600;
     border-radius: 20px;
     padding: 8px 16px;
-   
 }
 
-.micro{
-    left: 155px;
-    top: -60px;
-    z-index:5;
-   
+.micro {
+    left: -38px;
+    top: 266px;
+    z-index: 5;
 }
 
 .banner{
@@ -257,6 +255,48 @@ main{
     width: 100%;
     margin-bottom: 44px; 
 }
+/* BANNER ANIMATION START */
+
+.animation {
+  margin: 0;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: black; */
+}
+
+.animation img {
+  width: 300px;
+  border-radius: 200px;
+  animation: float 3s ease-in-out infinite, glow 2s ease-in-out infinite alternate;
+}
+
+/* Floating effect */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Glow effect */
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #38bdf8;
+  }
+  to {
+    box-shadow: 0 0 30px #38bdf8;
+  }
+}
+
+
+
 /* ==========BANNER SECTION END============= */
 
 
@@ -503,7 +543,7 @@ margin-bottom: 120px;
 }
 
 .copyright{
-  margin-left: 120px;
+  margin-left: 1px;
   text-align: center;
 }
 
@@ -531,7 +571,7 @@ margin-bottom: 120px;
  
 .hero-circle {
     left: 1px;
-    top: 30px;
+    top: 0px;
     z-index: 1;
 }
 .ch-button {
