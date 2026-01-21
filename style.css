@@ -13,13 +13,18 @@ body{
 .display-flex{
     display: flex;
 }
-.container{
+
+.container {
+    width: 80%;
+    max-width: 1280px;
+    border: 1px solid red;
+    margin: 0px auto;
     justify-items: center;
 }
 
 
 .navbar, .banner{
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: 0 auto;
 }
 
@@ -129,7 +134,7 @@ main{
 .navbar{
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    
     display: flex;
 }
 
@@ -220,7 +225,7 @@ main{
     background-position: center;
     justify-content: center;
     width: 100%;
-    max-width: 1600px;
+    /* max-width: 1600px; */
 }
 
 .video-button {
@@ -387,7 +392,7 @@ main{
 }
 
 .if-card{
-    width: 380px;
+    max-width: 380px;
     height: 440px;
     justify-content: space-between;
     align-items: center;
@@ -453,10 +458,48 @@ iframe{
 
 
 /* ================FOOTER SECTION START=============== */
+.back{
+    background: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 412px;
+    background-position: center;
+    /* justify-content: center; */
+    /* align-items: justified; */
+  
+}
+
+.our-sponsors{
+    /* Frame 2087326360 */
+width: 1360px;
+height: 172px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+/* margin-top: 25px; */
+margin-bottom: 120px;
+
+
+}
+.sponsor-companies{
+    margin-top: 25px;
+    /* margin-left: 408px;
+    margin-right: 408px; */
+}
+
+.sponsor-companies span{
+    /* margin-top: 125px; */
+    margin-right: 20px;
+    /* width: 544px;
+    height: 24px; */
+}
 .sponsor-info{
-    max-width: 540px;
-    margin: 50px auto;
-    text-align: center;
+    width: 410px;
+    height: 60px;
+    
 }
 
 .copyright{
